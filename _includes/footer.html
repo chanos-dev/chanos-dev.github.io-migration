@@ -29,6 +29,21 @@
         <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
           <svg><use xlink:href="#icon-linkedin"></use></svg>
         </a>
+      {% endif %} 
+      {% if site.dotnetdev_username %}
+        <a href="https://forum.dotnetdev.kr/u/{{ site.dotnetdev_username }}/summary" title="Dotnetdev">
+          <svg><use xlink:href="#icon-dotnetdev"></use></svg>
+        </a>
+      {% endif %}
+      {% if site.boj_username %}
+        <a href="https://www.acmicpc.net/user/{{ site.boj_username }}" title="Boj">
+          <svg><use xlink:href="#icon_boj"></use></svg>
+        </a>
+      {% endif %}
+      {% if site.codewars_username %}
+        <a href="https://www.codewars.com/users/{{ site.codewars_username }}" title="Codewars">
+          <svg><use xlink:href="#icon-codewars"></use></svg>
+        </a>
       {% endif %}
     </p>
 
@@ -57,6 +72,15 @@
 {% endif %}
 {% if site.linkedin_username %}
     {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/' | append: site.linkedin_username | append: '",' %}
+{% endif %}
+{% if site.dotnetdev_username %}
+    {% assign social_urls = social_urls | append: '"https://forum.dotnetdev.kr/u/' | append: site.dotnetdev_username  | append: '/summary' | append: '",' %}
+{% endif %}
+{% if site.boj_username %}
+    {% assign social_urls = social_urls | append: '"https://www.acmicpc.net/user/' | append: site.boj_username | append: '",' %}
+{% endif %}
+{% if site.codewars_username %}
+    {% assign social_urls = social_urls | append: '"https://www.codewars.com/users/' | append: site.codewars_username | append: '",' %}
 {% endif %}
 
 <script type="application/ld+json">

@@ -48,6 +48,15 @@ layout: page
 {% if page.linkedin_username %}
     {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: page.linkedin_username | append: '",' %}
 {% endif %}
+{% if page.dotnetdev_username %}
+    {% assign author_urls = author_urls | append: '"https://forum.dotnetdev.kr/u/' | append: page.dotnetdev_username  | append: '/summary' | append: '",' %}
+{% endif %}
+{% if page.boj_username %}
+    {% assign author_urls = author_urls | append: '"https://www.acmicpc.net/user/' | append: page.boj_username | append: '",' %}
+{% endif %}
+{% if page.codewars_username %}
+    {% assign author_urls = author_urls | append: '"https://www.codewars.com/users/' | append: page.codewars_username | append: '",' %}
+{% endif %}
 
 <script type="application/ld+json">
 {

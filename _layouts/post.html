@@ -103,6 +103,15 @@
         {% if author.linkedin_username %}
             {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
         {% endif %}
+        {% if author.dotnetdev_username %}
+            {% assign author_urls = author_urls | append: '"https://forum.dotnetdev.kr/u/' | append: author.dotnetdev_username | append: '/summary' | append: '",' %}
+        {% endif %}
+        {% if author.boj_username %}
+            {% assign author_urls = author_urls | append: '"https://www.acmicpc.net/user/' | append: author.boj_username | append: '",' %}
+        {% endif %}
+        {% if author.codewars_username %}
+            {% assign author_urls = author_urls | append: '"https://www.codewars.com/users/' | append: author.codewars_username | append: '",' %}
+        {% endif %}        
         {% if page.math %}
         <script>
             MathJax = {

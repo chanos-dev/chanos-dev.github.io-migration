@@ -185,6 +185,18 @@ collections:
         name: "medium_username"
         widget: "string"
         required: false
+      - label: "Boj Username"
+        name: "boj_username"
+        widget: "string"
+        required: false
+      - label: "Codewars Username"
+        name: "codewars_username"
+        widget: "string"
+        required: false
+      - label: "Dotnetdev Username"
+        name: "dotnetdev_username"
+        widget: "string"
+        required: false
   - label: "Settings"
     name: "settings"
     editor:

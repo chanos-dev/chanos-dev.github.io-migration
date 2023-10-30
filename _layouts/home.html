@@ -120,6 +120,15 @@ layout: main
 {% if site.linkedin_username %}
     {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/' | append: site.linkedin_username | append: '",' %}
 {% endif %}
+{% if site.dotnetdev_username %}
+    {% assign social_urls = social_urls | append: '"https://forum.dotnetdev.kr/u/' | append: site.dotnetdev_username | append: '/summary' | append: '",' %}
+{% endif %}
+{% if site.boj_username %}
+    {% assign social_urls = social_urls | append: '"https://www.acmicpc.net/user/' | append: site.boj_username | append: '",' %}
+{% endif %}
+{% if site.codewars_username %}
+    {% assign social_urls = social_urls | append: '"https://www.codewars.com/users/' | append: site.codewars_username | append: '",' %}
+{% endif %}
 
 <script type="application/ld+json">
 {
