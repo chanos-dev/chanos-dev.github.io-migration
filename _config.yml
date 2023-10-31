@@ -1,21 +1,29 @@
 # Site Settings
-name: chanos-dev
-title: chanos-dev blog
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: chanos
+title: chanos record
+description: 
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - dotnet
+  - csharp
+  - asp.net core
+  - c#
+  - .net
+  - .net core
+  - .net framework  
+  - winform
+  - webapi
+  - blazor
+  - mvc
 show_hero: true
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
+  - title: Category
+    url: /categorylist
+  - title: Tags
+    url: /tags
   - title: Feed
     url: /feed.xml
 email: chanos-dev@gmail.com
@@ -46,7 +54,7 @@ two_columns_layout: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+language: "ko-kr"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
@@ -103,4 +111,4 @@ exclude: [
 ]
 
 # Theme
-# version: v3.1.2
+version: .NET

@@ -1,15 +1,14 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: mranderson
-display_name: Mr. Anderson
-position: The One
-bio: Bulletproof hacker passionate about leather clothes.
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+name: chanos
+display_name: chanos
+# position: The One
+bio: .NET developer, I love .NET!
+# github_username: chanos-dev
+# linkedin_username: 찬호-백-ba53a020b
+# dotnetdev_username: chanos-dev
+# boj_username: chanos
+# codewars_username: chanos-dev
 ---
 

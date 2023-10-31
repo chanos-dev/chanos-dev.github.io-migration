@@ -1,0 +1,16 @@
+---
+layout: minimal
+---
+
+{% assign date_format = site.date_format | default: "%m/%d/%Y" %}
+
+<div class="tags"> 
+    {% assign posts = site.posts | where_exp:"post","post.is_generated != true" %}
+    {% assign unique_categories = "" %}
+    {% for post in posts %}
+      {% unless unique_categories contains post.category %}
+        {% assign unique_categories = unique_categories | append: post.category | append: " " %}
+        <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}">#{{ post.category }}</a>
+      {% endunless %}
+    {% endfor %}
+  </div>
