@@ -11,7 +11,7 @@ permalink: /about/
 
 # About
 
-안녕하세요. .NET 개발자 백찬호 입니다. 😎  
+안녕하세요. .NET 개발자 **chanos** 입니다. 😎  
 델파이 VCL로 시작하여 C# Winform으로 넘어가고 현재 .NET 세계에 빠져있습니다.  
 주로 .NET Framework로 Winform을 개발하고 있으며 서브로 모던 .NET을 이용하여 WebAPI 백엔드 개발을 하고 있습니다.
 
