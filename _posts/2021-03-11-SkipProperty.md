@@ -5,7 +5,7 @@ title:  "C# GetProperties 특정 Property 제외하고 가져오기"
 description: "Skip Property"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET

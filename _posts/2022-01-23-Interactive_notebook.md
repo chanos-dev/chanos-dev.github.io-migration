@@ -5,7 +5,7 @@ title:  ".NET Interactive Notebooks (.NET 5 SDK)"
 description: ".NET Interactive Notebooks (.NET 5 SDK)"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: .NET
+category: DotNet
 tags:
   - .NET
   - Interactive Notebooks

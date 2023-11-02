@@ -5,7 +5,7 @@ title:  "C# 제네릭메서드 안에서 객체 비교 문제"
 description: "제네릭메서드 안에서 객체 비교 문제"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET

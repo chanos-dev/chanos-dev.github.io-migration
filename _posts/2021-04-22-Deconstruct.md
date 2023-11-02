@@ -5,7 +5,7 @@ title:  "C# 튜플 사용자 정의 형식 분해"
 description: "Deconstruct"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET

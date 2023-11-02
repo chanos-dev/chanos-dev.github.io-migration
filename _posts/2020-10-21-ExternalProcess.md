@@ -5,7 +5,7 @@ title:  "C# 응용프로그램 실행하기"
 description: "Process.Start"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET

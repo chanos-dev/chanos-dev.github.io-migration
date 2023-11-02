@@ -5,7 +5,7 @@ title:  "C# 객체 비교"
 description: "IEquatable"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET

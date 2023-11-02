@@ -5,7 +5,7 @@ title:  "C# 확장메서드"
 description: "Extension Method"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET
