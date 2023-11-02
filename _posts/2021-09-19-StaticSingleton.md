@@ -5,7 +5,7 @@ title:  "C# static class, singleton"
 description: "static class, singleton"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET

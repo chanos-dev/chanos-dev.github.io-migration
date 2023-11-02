@@ -5,7 +5,7 @@ title:  "C# Singleton Pattern"
 description: "Singleton Pattern"
 image: /assets/img/posts/image/csharp.png
 optimized_image: /assets/img/posts/image/csharp.png
-category: C#
+category: C Sharp
 tags:
   - C#
   - .NET
