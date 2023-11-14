@@ -13,6 +13,11 @@ tags:
   - DoubleBuffered
 author: chanos
 ---
+
+>[Drawio](https://github.com/chanos-dev/chanos-dev.github.io/tree/master/document/2021-11-24/DoubleBuffered.drawio)
+
+---
+
 안녕하세요. <b>chanos</b>입니다. 😉
 
 오늘은 C# Winform에서 `DoubleBuffered`에 대한 글입니다.
