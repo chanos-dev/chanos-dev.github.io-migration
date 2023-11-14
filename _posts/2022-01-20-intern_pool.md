@@ -13,10 +13,11 @@ tags:
   - intern pool
 author: chanos
 ---
+
 >[Git Source](https://github.com/chanos-dev/blogcode/tree/master/22-0120){:target="_blank"}
 
 >[Heap picture draw.io](https://github.com/chanos-dev/chanos-dev.github.io/tree/master/document/2022-01-20/heap.drawio){:target="_blank"}
-
+                      
 ---
 
 안녕하세요. <b>chanos</b>입니다. 😉

@@ -13,7 +13,9 @@ tags:
   - Finalizer
 author: chanos
 ---
->[Git Source](https://github.com/chanos-dev/blogcode/tree/master/21-0802){:target="_blank"}
+
+>[Git Source](https://github.com/chanos-dev/blogcode/tree/master/21-0802){:target="_blank"}  
+>[Memory Flow](https://github.com/chanos-dev/chanos-dev.github.io/tree/master/document/2021-08-02/Finalizer.drawio)
 
 ---
 
