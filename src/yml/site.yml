@@ -26,6 +26,7 @@ menu:
   - title: Feed
     url: /feed.xml
 email: chanos-dev@gmail.com
+future: true
 # paginate: 12
 # See: https://disqus.com/
 # disqus_username: disqus_username
