@@ -11,12 +11,15 @@ tags:
   - Visual Studio
 author: chanos
 ---
+> [Git Source](https://github.com/chanos-dev/blogcode/tree/master/25-0203){:target="_blank"}  
 
 ```
 환경
 - visual studio 2022
 - .net framework 4.8
 ```
+
+---
 
 여러 클래스에 공통 로직이 존재하는 경우 부모 클래스에 해당 로직을 분리하고 상속 받아 설계를 할 수 있습니다.
 
